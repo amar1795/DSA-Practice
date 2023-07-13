@@ -22,7 +22,7 @@ public class max_min_sum {
         int result = solution.solve(array);
 
         System.out.println("Sum is :"+result);
-
+        //
 
 
 
