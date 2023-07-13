@@ -18,17 +18,19 @@ public class max_min_sum {
                 array[i] = scanner.nextInt();
             }
 
-//        max_min_sum solution = new max_min_sum();
-//        int result = solution.solve(array);
+        max_min_sum solution = new max_min_sum();
+        int result = solution.solve(array);
 
-      solve(array);
+        System.out.println("Sum is :"+result);
+
+
 
 
 
 
     }
 
-    public static void solve(int[] A) {
+    public int solve(int[] A) {
 
         int max=A[0];;
         int min=A[0];
@@ -48,9 +50,8 @@ public class max_min_sum {
         }
 
         int sum=max+min;
-//        return sum;
+        return sum;
 
-        System.out.println("Sum is :"+sum);
 
 
 
