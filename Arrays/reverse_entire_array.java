@@ -8,6 +8,7 @@ public class reverse_entire_array {
         System.out.println("Original array: " + Arrays.toString(array));
 
         reverseArray(array);
+//        reversing an array
 
         System.out.println("Reversed array: " + Arrays.toString(array));
     }
