@@ -12,7 +12,6 @@ public class transpose {
                 for(int j=0;j<m;j++)
                 {
                     arr[j][i]=A[i][j];
-
                 }
 
             }
